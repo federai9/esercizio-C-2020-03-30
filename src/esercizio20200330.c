@@ -158,6 +158,9 @@ if (result==0)
 printf("EQUAL ARRAY");
 else
 printf("NOT EQUAL ARRAY");
+	
+free(fibonacci_result);
+free(fibonacci_result_copy);
 
 return 0;
 
